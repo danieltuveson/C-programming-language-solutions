@@ -8,11 +8,13 @@ main ()
     while ((c = getchar()) != EOF)
     {
         
-        if (!skip && c == ' ') {
+        if (!skip && c == ' ') 
+        {
             skip = 1;
             putchar(' ');
         }
-        else if (c != ' ') {
+        else if (c != ' ') 
+        {
             skip = 0;
         }
         
